@@ -1,0 +1,52 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "Disable Nagios Alert",
+        "description": "",
+        "id": "disable-nagios-alert-for-all-hosts-scenario;disable-nagios-alert",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 19373629145,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Open IE and start application",
+            "match": {
+              "location": "StepDef.Open_IE_and_start_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 42873122243,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I Select Hosts link",
+            "match": {
+              "location": "StepDef.I_Select_Hosts_link()"
+            },
+            "keyword": "When "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@run"
+          }
+        ]
+      }
+    ],
+    "name": "Disable Nagios Alert for All Hosts scenario",
+    "description": "",
+    "id": "disable-nagios-alert-for-all-hosts-scenario",
+    "keyword": "Feature",
+    "uri": "myApplication.feature"
+  }
+]
