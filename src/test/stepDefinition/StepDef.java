@@ -217,6 +217,7 @@ public class StepDef {
 		driver.switchTo().frame("main");
 		WebElement element = driver.findElement(By.name("btnSubmit"));
 		if (null != nbltrue && nbltrue.equalsIgnoreCase("Y")) {
+			driver.findElement(By.name("btnSubmit")).sendKeys(Keys.ENTER);
 			element.click();
 		}
 		driver.switchTo().defaultContent();
