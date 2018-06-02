@@ -12,6 +12,7 @@ import java.util.Set;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.ie.InternetExplorerDriver;
@@ -217,6 +218,7 @@ public class StepDef {
 		driver.switchTo().frame("main");
 		WebElement element = driver.findElement(By.name("btnSubmit"));
 		if (null != nbltrue && nbltrue.equalsIgnoreCase("Y")) {
+			System.out.println("enable");
 			driver.findElement(By.name("btnSubmit")).sendKeys(Keys.ENTER);
 			element.click();
 		}
@@ -235,7 +237,7 @@ public class StepDef {
             if (null != anchor) {
             	//System.out.println("Anchor " + anchor.getAttribute("href"));
                 if(anchor.getAttribute("href").contains(href)) {
-                	System.out.println("match found " + anchor.getText());
+                	System.out.println("match found: " + anchor.getText());
                 	JavascriptExecutor executor = (JavascriptExecutor) driver;
                 	executor.executeScript("arguments[0].click();", anchor);
                     //anchor.click();
