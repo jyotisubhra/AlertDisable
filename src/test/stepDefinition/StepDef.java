@@ -233,7 +233,7 @@ public class StepDef {
         while(i.hasNext()) {
             WebElement anchor = i.next();
             if (null != anchor) {
-            	System.out.println("Anchor " + anchor.getAttribute("href"));
+            	//System.out.println("Anchor " + anchor.getAttribute("href"));
                 if(anchor.getAttribute("href").contains(href)) {
                 	System.out.println("match found " + anchor.getText());
                 	JavascriptExecutor executor = (JavascriptExecutor) driver;
