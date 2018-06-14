@@ -1,0 +1,69 @@
+INFO - ************* Logger Started ***************
+INFO - Screenshot folder created
+INFO - Test Run Env : null
+INFO - Environment Selected is :UAT
+INFO - Host Lists size, going to disabled: 10
+INFO - Application Started
+INFO - Click on Host vmh-lh-adcu-dlxdue01a
+INFO - Click on scheduled Downtime link vmh-lh-adcu-dlxdue01a
+INFO - Enter Comment 
+INFO - Enter Start Date 
+INFO - Enter End Date 
+INFO - Commit 
+INFO - Click on Host vmh-lh-adcu-dlxdue02a
+INFO - Click on scheduled Downtime link vmh-lh-adcu-dlxdue02a
+INFO - Enter Comment 
+INFO - Enter Start Date 
+INFO - Enter End Date 
+INFO - Commit 
+INFO - Click on Host vmh-lh-adcu-dlxdue03a
+INFO - Click on scheduled Downtime link vmh-lh-adcu-dlxdue03a
+INFO - Enter Comment 
+INFO - Enter Start Date 
+INFO - Enter End Date 
+INFO - Commit 
+INFO - Click on Host vmh-lh-adcu-dlxdue04a
+INFO - Click on scheduled Downtime link vmh-lh-adcu-dlxdue04a
+INFO - Enter Comment 
+INFO - Enter Start Date 
+INFO - Enter End Date 
+INFO - Commit 
+INFO - Click on Host vmh-lh-adcu-dlxdue05a
+INFO - Click on scheduled Downtime link vmh-lh-adcu-dlxdue05a
+INFO - Enter Comment 
+INFO - Enter Start Date 
+INFO - Enter End Date 
+INFO - Commit 
+INFO - Click on Host vmh-lh-adcu-dlxdup01a
+INFO - Click on scheduled Downtime link vmh-lh-adcu-dlxdup01a
+INFO - Enter Comment 
+INFO - Enter Start Date 
+INFO - Enter End Date 
+INFO - Commit 
+INFO - Click on Host vmh-lh-adcu-dlxdud01a
+INFO - Click on scheduled Downtime link vmh-lh-adcu-dlxdud01a
+INFO - Enter Comment 
+INFO - Enter Start Date 
+INFO - Enter End Date 
+INFO - Commit 
+INFO - Click on Host vmh-lh-adcu-dlxdud02a
+INFO - Click on scheduled Downtime link vmh-lh-adcu-dlxdud02a
+INFO - Enter Comment 
+INFO - Enter Start Date 
+INFO - Enter End Date 
+INFO - Commit 
+INFO - Click on Host vmh-lh-adcu-dlxdud03a
+INFO - Click on scheduled Downtime link vmh-lh-adcu-dlxdud03a
+INFO - Enter Comment 
+INFO - Enter Start Date 
+INFO - Enter End Date 
+INFO - Commit 
+INFO - Click on Host vmh-lh-adcu-dlxdue06a
+INFO - Click on scheduled Downtime link vmh-lh-adcu-dlxdue06a
+INFO - Enter Comment 
+INFO - Enter Start Date 
+INFO - Enter End Date 
+INFO - Commit 
+INFO - Capturing Screenshots
+INFO - Downtime Window clicked 
+INFO - **************Logger Ended ******************

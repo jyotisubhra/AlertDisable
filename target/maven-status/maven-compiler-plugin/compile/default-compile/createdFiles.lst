@@ -1,2 +1,5 @@
-test\stepDefinition\StepDef.class
+test\resource\utils\BusinessUtils.class
 test\java\TestRunner.class
+test\resource\utils\ConfigUtils.class
+test\stepDefinition\StepDef.class
+test\resource\pageObjects\NagiosPage.class

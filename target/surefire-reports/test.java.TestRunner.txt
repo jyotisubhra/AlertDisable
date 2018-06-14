@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: test.java.TestRunner
 -------------------------------------------------------------------------------
-Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 62.823 sec
+Tests run: 12, Failures: 0, Errors: 0, Skipped: 9, Time elapsed: 614.394 sec

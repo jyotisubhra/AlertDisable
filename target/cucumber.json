@@ -3,41 +3,113 @@
     "line": 1,
     "elements": [
       {
-        "line": 4,
-        "name": "Disable Nagios Alert",
+        "line": 9,
+        "name": "schedule downtime for all services",
         "description": "",
-        "id": "disable-nagios-alert-for-all-hosts-scenario;disable-nagios-alert",
+        "id": "disable-nagios-alert-for-all-hosts-scenario;schedule-downtime-for-all-services",
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 19373629145,
+              "duration": 166232511,
               "status": "passed"
             },
-            "line": 5,
-            "name": "Open IE and start application",
+            "line": 10,
+            "name": "Open IE and start the application",
             "match": {
-              "location": "StepDef.Open_IE_and_start_application()"
+              "location": "StepDef.open_IE_and_start_the_application()"
             },
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 42873122243,
+              "duration": 598447450287,
               "status": "passed"
             },
-            "line": 6,
-            "name": "I Select Hosts link",
+            "line": 11,
+            "name": "Iterate the Hostlists",
             "match": {
-              "location": "StepDef.I_Select_Hosts_link()"
+              "location": "StepDef.iterate_the_Hostlists()"
             },
             "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 12,
+            "name": "Select \"hostlink\" for each host",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 13,
+            "name": "select schedule downtime for all services for the \"hsotname\"",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 14,
+            "name": "Enter Comment as \"comment\"",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 15,
+            "name": "Enter Start Date as \"startDate\"",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 16,
+            "name": "Enter End Date as \"End Date\"",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 17,
+            "name": "Click on Commit as \"Enable\"",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 18,
+            "name": "Click on Hosts link",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 19,
+            "name": "click on Downtime link",
+            "match": {},
+            "keyword": "Then "
           }
         ],
         "tags": [
           {
-            "line": 3,
+            "line": 8,
             "name": "@run"
           }
         ]

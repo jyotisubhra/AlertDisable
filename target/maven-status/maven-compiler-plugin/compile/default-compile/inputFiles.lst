@@ -1,2 +1,5 @@
 C:\Workspace\AlertAutomation\AlertDisable\src\test\java\TestRunner.java
+C:\Workspace\AlertAutomation\AlertDisable\src\test\resource\utils\ConfigUtils.java
+C:\Workspace\AlertAutomation\AlertDisable\src\test\resource\pageObjects\NagiosPage.java
+C:\Workspace\AlertAutomation\AlertDisable\src\test\resource\utils\BusinessUtils.java
 C:\Workspace\AlertAutomation\AlertDisable\src\test\stepDefinition\StepDef.java
