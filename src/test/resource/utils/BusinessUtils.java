@@ -99,6 +99,7 @@ public static WebDriver driver;
 		NagiosPage.clickLinkByHref("cmd.cgi?cmd_typ=55&host=" + hostname, "main");
 		driver.switchTo().defaultContent();
 		ConfigUtils.ReportLog(true, "Click on Schedule Downtime ", false);
+		Thread.sleep(5000);
 	}
 	
 	public static void entComment(String disabledComment) throws Throwable {
