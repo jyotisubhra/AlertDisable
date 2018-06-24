@@ -52,6 +52,7 @@ public class StepDef {
 				BusinessUtils.rest();
 			}
 		}
+		Thread.sleep(5000);
 		BusinessUtils.getDisabledPageScreenshots();
 	}
 
