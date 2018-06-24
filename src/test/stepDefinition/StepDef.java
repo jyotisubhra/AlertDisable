@@ -9,7 +9,6 @@ import java.util.ArrayList;
 import java.util.Iterator;
 
 import cucumber.api.java.en.Given;
-import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 import test.resource.utils.BusinessUtils;
 
@@ -41,10 +40,14 @@ public class StepDef {
 				String hostname = (String) itr.next();
 				System.out.println("Hostname, going to disable now is: " + hostname);
 				BusinessUtils.clickOnHost(hostname);
-				BusinessUtils.clickSchdDownTimeAllServices(hostname);;
-				BusinessUtils.entComment(comment);;
+				BusinessUtils.clickSchdDownTimeAllServices(hostname);
+				Thread.sleep(10000);
+				BusinessUtils.entComment(comment);
+				Thread.sleep(5000);
 				BusinessUtils.entStartTime(startTime);
+				Thread.sleep(5000);
 				BusinessUtils.entEndTime(endTime);
+				Thread.sleep(5000);
 				BusinessUtils.clickCommit(enable);
 				BusinessUtils.rest();
 			}
