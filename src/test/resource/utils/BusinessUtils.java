@@ -12,7 +12,6 @@ import static test.resource.utils.ConfigUtils.startTime;
 
 import java.util.ArrayList;
 import java.util.Iterator;
-import java.util.Set;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
@@ -99,7 +98,6 @@ public static WebDriver driver;
 		NagiosPage.clickLinkByHref("cmd.cgi?cmd_typ=55&host=" + hostname, "main");
 		driver.switchTo().defaultContent();
 		ConfigUtils.ReportLog(true, "Click on Schedule Downtime ", false);
-		Thread.sleep(5000);
 	}
 	
 	public static void entComment(String disabledComment) throws Throwable {
